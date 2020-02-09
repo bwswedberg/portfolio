@@ -59,10 +59,10 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
 
   },
   titleContainer: {
-    marginBottom: theme.spacing(6),
+    marginBottom: theme.spacing(3),
   },
   job: {
-    marginBottom: theme.spacing(6),
+    marginBottom: theme.spacing(10),
     maxWidth: 400
   },
   jobHeader: {

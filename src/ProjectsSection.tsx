@@ -32,7 +32,7 @@ export default function WorkSection({ className }) {
                     </div>
                   </div>
                   <div className="col-12 col-xl-6">
-                    <div className="row align-items-center">
+                    <div className={classnames('row', 'align-items-center', classes.projectDescriptionRow)}>
                       <div className="col">
                         <div className={classes.projectDescription}>
                           <Typography className={classes.projectTitle} variant="h6">{d.title}</Typography>
@@ -82,6 +82,9 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
       zIndex: -1,
       backgroundColor: theme.palette.secondary.main
     },
+  },
+  projectDescriptionRow: {
+    height: '100%',
   },
   projectDescription: {
 

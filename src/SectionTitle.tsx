@@ -18,7 +18,10 @@ export default function SectionTitle({ title }) {
 const useStyles = makeStyles((theme: Theme) => createStyles({
   title: {
     color: theme.palette.text.secondary,
-    borderBottom: `2px solid rgba(255,255,255,0.1)`,
-    // textTransform: 'uppercase',
+    // borderBottom: `2px solid rgba(255,255,255,0.1)`,
+    borderTop: '2px solid rgba(255,255,255,0.1)',
+    borderRight: '2px solid rgba(255,255,255,0.1)',
+    textAlign: 'right',
+    paddingRight: theme.spacing(2)
   },
 }));
