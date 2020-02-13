@@ -3,7 +3,7 @@ import { makeStyles, createStyles } from "@material-ui/styles";
 import { Typography, Theme} from "@material-ui/core";
 
 import IntroSection from '../sections/IntroSection';
-import ProjectsSection from '../sections/ProjectsSection';
+import ProjectsSection from '../sections/ProjectsSection/ProjectsSection';
 import ExperienceSection from '../sections/ExperienceSection';
 import ContactSection from '../sections/ContactSection';
 

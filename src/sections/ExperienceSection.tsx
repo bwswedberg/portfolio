@@ -32,7 +32,7 @@ export default function ExperienceSection({ className }) {
                 </Typography>
                 <Typography 
                   className={classes.jobDescription}
-                  variant="body1" 
+                  variant="body2" 
                   gutterBottom
                 >
                   <span className={classes.jobCompany}>{job.company}</span> — {job.description} 

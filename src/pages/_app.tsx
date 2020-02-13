@@ -4,6 +4,8 @@ import Head from 'next/head';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
+import 'react-image-lightbox/style.css';
+import 'intersection-observer';
 
 import theme from '../theme';
 

@@ -23,6 +23,7 @@ export default function Header() {
 const useStyles = makeStyles((theme: Theme) => createStyles({
   title: {
     fontWeight: 'bold',
+    fontFamily: 'Fira Code',
     color: theme.palette.text.secondary,
     letterSpacing: '0.025em',
     textTransform: 'uppercase',

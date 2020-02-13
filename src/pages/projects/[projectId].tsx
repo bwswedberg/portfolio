@@ -26,7 +26,7 @@ function ProjectPage({ data, content }: Props) {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <Typography variant="h3" component="h1">
+            <Typography className={classes.title} variant="h3" component="h1">
               {data.title}
             </Typography>
             <div className={classes.markdownContent}>
@@ -44,6 +44,10 @@ function ProjectPage({ data, content }: Props) {
 }
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
+  title: {
+    marginTop: theme.spacing(8),
+    marginBottom: theme.spacing(8),
+  },
   markdownContent: {
     '& a': {
       textDecorationColor: theme.palette.secondary.light,
