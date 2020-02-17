@@ -82,8 +82,9 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     letterSpacing: '0.03em',
   },
   jobFooter: {
-    borderLeft: `3px solid ${theme.palette.secondary.main}`,
-    paddingLeft: '1rem',
+    // borderLeft: `2px solid rgba(255,255,255,0.3)`,
+    // paddingLeft: '1rem',
+    marginTop: theme.spacing(2),
     color: theme.palette.text.secondary,
   },
 }));

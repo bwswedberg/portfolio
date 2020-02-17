@@ -6,6 +6,7 @@ import classnames from 'classnames';
 import SectionTitle from '../SectionTitle';
 import ProjectLightbox from './ProjectLightbox';
 import Project from './Project';
+import projects from './projects';
 
 export default ({ className }) => {
   const [selectedProject, setSelectedProject] = useState();
@@ -41,61 +42,3 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     marginBottom: theme.spacing(10),
   },
 }));
-
-const projects = [
-  {
-    id: 'bible-reading-plans',
-    title: 'Read Through the Bible',
-    lead: 'Discover, use, and create Bible reading plans',
-    thumbnail: '/projects/bible-reading-plans/thumbnail.png',
-    images: [
-      { 
-        src: '/projects/apartment-reporter/thumbnail.png',
-      },
-    ]
-  },
-  {
-    id: 'apartment-reporter',
-    title: 'Apartment Reporter',
-    lead: 'Scraping the web for the apartment next door',
-    thumbnail: '/projects/apartment-reporter/thumbnail.png',
-    images: [
-      { 
-        src: '/projects/apartment-reporter/thumbnail.png',
-      },
-    ]
-  },
-  {
-    id: 'data-viz',
-    title: 'Bl.ocks & ObservableHQ',
-    lead: 'Data visualization experiments and proof of concepts',
-    thumbnail: '/projects/data-viz/thumbnail.png',
-    images: [
-      { 
-        src: '/projects/apartment-reporter/thumbnail.png',
-      },
-    ]
-  },
-  {
-    id: 'perse',
-    title: 'PerSE',
-    lead: 'Geovisual analytics for multi-calendar environments',
-    thumbnail: '/projects/perse/thumbnail.png',
-    images: [
-      { 
-        src: '/projects/apartment-reporter/thumbnail.png',
-      },
-    ]
-  },
-  {
-    id: 'spotvis',
-    title: 'SPoTvis',
-    lead: 'Exploring sentiment surrounding 2013 U.S. Government shutdown.',
-    thumbnail: '/projects/spotvis/thumbnail.png',
-    images: [
-      { 
-        src: '/projects/apartment-reporter/thumbnail.png',
-      },
-    ]
-  },
-];

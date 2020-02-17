@@ -2,16 +2,18 @@ import React, { useState, createRef } from 'react';
 import Lightbox from 'react-image-lightbox';
 import { makeStyles, Theme, createStyles, Typography, Button } from '@material-ui/core';
 import classnames from 'classnames';
+
 import ProjectLightbox from './ProjectLightbox';
+import { Project } from './projects';
 
 interface Props {
-  project: any;
+  project: Project;
   i: number;
 }
 
 // https://medium.com/the-non-traditional-developer/how-to-use-an-intersectionobserver-in-a-react-hook-9fb061ac6cb5
 
-export default ({ project, i }) => {
+export default ({ project, i }: Props) => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const classes = useStyles();
   const setRootRef = (element) => {
@@ -22,17 +24,13 @@ export default ({ project, i }) => {
     <div className={classes.root} ref={setRootRef}>
       <div className={classnames('row', i % 2 && 'flex-row-reverse')}>
         <div className="col-12 col-xl-6">
-          <div 
-            className={classes.thumbnail} 
-            style={{
-              backgroundImage: `url(${project.thumbnail})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
-              filter: 'blur(0.8)',
-            }}
-            onClick={() => setIsLightboxOpen(true)}
-          />
+          <div className={classes.thumbnailContainer}>
+            <img
+              className={classes.thumbnail} 
+              src={project.thumbnail.src}
+              onClick={() => setIsLightboxOpen(true)}
+            />
+          </div>
         </div>
         <div className="col-12 col-xl-6 align-self-center">
           <div className={classes.content}>
@@ -41,16 +39,16 @@ export default ({ project, i }) => {
               color="textSecondary" 
               variant="overline"
               display="block"
-            >{project.title}</Typography>
+            >{project.type}</Typography>
             <Typography 
               className={classes.lead} 
               color="textPrimary" 
               variant="h6"
-            >{project.lead}</Typography>
+            >{project.title}</Typography>
             <Typography 
               className={classes.paragraph} 
               variant="body2"
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
+            >{project.description} Built with {project.tech}.</Typography>
             <Button 
               variant="outlined" 
               color="secondary"
@@ -61,7 +59,7 @@ export default ({ project, i }) => {
       </div>
       { isLightboxOpen && (
         <ProjectLightbox 
-          items={project.images} 
+          project={project} 
           onCloseRequest={() => setIsLightboxOpen(false)}
         />
       )}
@@ -72,11 +70,15 @@ export default ({ project, i }) => {
 const useStyles = makeStyles((theme: Theme) => createStyles({
   root: {
   },
+  thumbnailContainer: {
+
+  },
   thumbnail: {
     backgroundColor: theme.palette.background.paper,
     maxWidth: 500,
-    maxHeight: 310,
-    height: 310,
+    width: '100%',
+    maxHeight: 260,
+    height: 260,
     position: 'relative',
     marginBottom: theme.spacing(3),
     '&:before': {
