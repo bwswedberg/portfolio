@@ -61,22 +61,22 @@ const projects: Project[] = [
       { 
         src: '/projects/apartment-reporter/apartment-reporter-1.png',
         title: 'Frontend UI',
-        caption: 'The frontend interface of *Apartment Reporter*. Orange circles indicate an apartment listing. The frontend is populated by apartment listings scraped daily by the AWS backend.',
+        caption: 'The frontend interface of Apartment Reporter. Orange circles indicate an apartment listing. The frontend is populated by apartment listings scraped daily by the AWS backend.',
       },
       { 
         src: '/projects/apartment-reporter/apartment-reporter-2.png',
         title: 'Frontend UI Displaying Past Apartment Listings',
-        caption: 'The frontend interface of *Apartment Reporter*. Settings flipped to show past apartment listings.',
+        caption: 'The frontend interface of Apartment Reporter. Settings flipped to show past apartment listings.',
       },
       { 
         src: '/projects/apartment-reporter/apartment-reporter-4.png',
         title: 'Frontend UI Filter by Date Range',
-        caption: 'The frontend interface of *Apartment Reporter*. Filtering past apartment listings by date range.',
+        caption: 'The frontend interface of Apartment Reporter. Filtering past apartment listings by date range.',
       },
       { 
         src: '/projects/apartment-reporter/apartment-reporter-7.png',
         title: 'Frontend UI Filter by Type',
-        caption: 'The frontend interface of *Apartment Reporter*. Filtering past apartment listings by room number and monthly rent price',
+        caption: 'The frontend interface of Apartment Reporter. Filtering past apartment listings by room number and monthly rent price',
       },
     ]
   },
@@ -85,7 +85,7 @@ const projects: Project[] = [
     type: 'Data Visualization',
     title: 'Proof of Concepts, Experiments, & Art',
     lead: 'Data Viz for the Mind and Soul',
-    description: 'Data visualizations are a great deal of fun for testing ideas and showing off techniques. [Bl.ocks](https://bl.ocks.org/bwswedberg) are ObservableHQ is an enviroment perfect for that.',
+    description: 'Data visualizations are a great deal of fun for testing ideas and showing off techniques. [Bl.ocks](https://bl.ocks.org/bwswedberg) are ObservableHQ is an environment perfect for that.',
     tech: 'JavaScript, D3, Leaflet, and Three',
     thumbnail: {
       title: 'Proof of Concepts, Experiments, & Art',
@@ -96,7 +96,7 @@ const projects: Project[] = [
       { 
         src: '/projects/data-viz/circular-fractal.png',
         title: 'Circular Fractal',
-        caption: '[Circular Fractal](https://bl.ocks.org/bwswedberg/93cb6fea2dd3d653727e01b2db967dba) is an experimental vizualization using trigonometry and fractals.',
+        caption: '[Circular Fractal](https://bl.ocks.org/bwswedberg/93cb6fea2dd3d653727e01b2db967dba) is an experimental visualization using trigonometry and fractals.',
       },
       { 
         src: '/projects/data-viz/collapsible-tree-w-minimap.png',

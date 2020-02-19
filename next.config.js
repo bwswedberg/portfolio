@@ -1,6 +1,9 @@
 module.exports = {
-  env: {
-    API_URL: 'http://localhost:3000',
+  exportTrailingSlash: true,
+  exportPathMap: function() {
+    return {
+      '/': { page: '/' }
+    };
   },
   webpack: function(config) {
     config.module.rules.push({
