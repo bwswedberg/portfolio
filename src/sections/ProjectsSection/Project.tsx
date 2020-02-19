@@ -16,12 +16,9 @@ interface Props {
 export default ({ project, i }: Props) => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const classes = useStyles();
-  const setRootRef = (element) => {
-    console.log(element);
-  };
 
   return (
-    <div className={classes.root} ref={setRootRef}>
+    <div className={classes.root}>
       <div className={classnames('row', i % 2 && 'flex-row-reverse')}>
         <div className="col-12 col-xl-6">
           <div className={classes.thumbnailContainer}>
@@ -30,6 +27,7 @@ export default ({ project, i }: Props) => {
               src={project.thumbnail.src}
               onClick={() => setIsLightboxOpen(true)}
             />
+            <div className={classes.thumbnailBackground}></div>
           </div>
         </div>
         <div className="col-12 col-xl-6 align-self-center">
@@ -71,26 +69,34 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
   root: {
   },
   thumbnailContainer: {
-
+    position: 'relative',
+    display: 'inline-block',
+    marginBottom: theme.spacing(3),
   },
   thumbnail: {
-    backgroundColor: theme.palette.background.paper,
     maxWidth: 500,
     width: '100%',
     maxHeight: 260,
-    height: 260,
-    position: 'relative',
-    marginBottom: theme.spacing(3),
-    '&:before': {
-      content: '""',
-      position: 'absolute',
-      top: 5,
-      right: -10,
-      bottom: -10,
-      left: 5,
-      zIndex: -1,
-      backgroundColor: theme.palette.secondary.main,
-    },
+    cursor: 'pointer',
+    backgroundColor: theme.palette.background.paper,  
+    // 'transition': 'transform 500ms',
+    // border: '1px solid rgba(255,255,255,0.01)',
+    // '&:hover': {
+    //   transform: 'translate(10px,10px)'
+    // }, 
+  },
+  thumbnailBackground: {
+    position: 'absolute',
+    top: 0,
+    // top: 10,
+    // right: -10,
+    // bottom: -10,
+    // left: 10,
+    zIndex: -1,
+    backgroundColor: theme.palette.secondary.main,
+    width: '100%',
+    height: '100%',
+    transform: 'translate(10px,10px)'
   },
   content: {
     maxWidth: 500,

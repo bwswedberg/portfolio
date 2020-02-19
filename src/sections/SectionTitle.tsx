@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
       content: '""',
       position: 'absolute',
       top: 0,
-      borderTop: '2px solid rgba(255,255,255,0.1)',
+      borderTop: '4px solid rgba(255,255,255,0.5)',
       borderRight: '2px solid rgba(255,255,255,0.1)',
       right: 0,
       left: -10000,
