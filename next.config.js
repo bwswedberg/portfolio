@@ -1,10 +1,10 @@
 module.exports = {
-  // exportTrailingSlash: true,
-  // exportPathMap: function() {
-  //   return {
-  //     '/': { page: '/' }
-  //   };
-  // },
+  exportTrailingSlash: true,
+  exportPathMap: function() {
+    return {
+      '/': { page: '/' }
+    };
+  },
   assetPrefix: './',
   webpack: function(config) {
     config.module.rules.push({
