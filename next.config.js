@@ -8,7 +8,7 @@ module.exports = {
       '/': { page: '/' }
     };
   },
-  assetPrefix: !isDebug ? 'https://bwswedberg.github.io/portfolio/' : '', // https://github.com/zeit/next.js/issues/3335
+  // assetPrefix: !isDebug ? '/portfolio/' : '', // https://github.com/zeit/next.js/issues/3335
   webpack: function(config) {
     config.module.rules.push({
       test: /\.md$/,
