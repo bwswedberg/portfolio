@@ -72,7 +72,7 @@ export default function ContactSection({ className }) {
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
   root: {
-    paddingTop: theme.spacing(12),
+
   },
   icons: {
     marginBottom: theme.spacing(10),

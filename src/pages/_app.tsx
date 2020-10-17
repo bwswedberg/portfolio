@@ -24,8 +24,10 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>Brian Swedberg</title>
+          <title>Portfolio - Brian Swedberg</title>
           <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+          <meta name="description" content="Brian Swedberg. A front-end developer builds web apps, maps, and data visualizations." />
+          <link rel="shortcut icon" type="image/x-icon" href="/favicon_10.ico" />
         </Head>
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

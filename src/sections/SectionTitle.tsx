@@ -8,7 +8,6 @@ export default function SectionTitle({ title }) {
     <Typography 
       className={classes.title}
       variant="h2"
-      component="h2"
     >{title}</Typography>
   );
 }
@@ -21,6 +20,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     // borderTop: '2px solid rgba(255,255,255,0.1)',
     // borderRight: '2px solid rgba(255,255,255,0.1)',
     textAlign: 'right',
+    // fontWeight: 'bold',
     // fontFamily: 'Fira Code',
     '&:before': {
       content: '""',

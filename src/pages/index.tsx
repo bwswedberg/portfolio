@@ -13,8 +13,12 @@ export default function Index({ userAgent, theme }) {
   return (
     <div>
       <IntroSection className={classes.section} />
-      <ProjectsSection className={classes.section} />
-      <ExperienceSection className={classes.section} />
+      <div className={classes.projectsSectionContainer}>
+        <ProjectsSection className={classes.section} />
+      </div>
+      <div className={classes.experienceSectionContainer}>
+        <ExperienceSection className={classes.section} />
+      </div>
       <ContactSection className={classes.section} />
     </div>
   );
@@ -23,5 +27,11 @@ export default function Index({ userAgent, theme }) {
 const useStyles = makeStyles((theme: Theme) => createStyles({
   section: {
     marginBottom: theme.spacing(6)
+  },
+  projectsSectionContainer: {
+    marginBottom: theme.spacing(12),
+  },
+  experienceSectionContainer: {
+    marginBottom: theme.spacing(12),
   },
 }));
