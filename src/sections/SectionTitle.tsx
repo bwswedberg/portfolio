@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     // borderBottom: `2px solid rgba(255,255,255,0.1)`,
     // borderTop: '2px solid rgba(255,255,255,0.1)',
     // borderRight: '2px solid rgba(255,255,255,0.1)',
-    textAlign: 'right',
+    // textAlign: 'right',
     // fontWeight: 'bold',
     // fontFamily: 'Fira Code',
     '&:before': {
