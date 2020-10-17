@@ -31288,7 +31288,7 @@ var yellow = {
 /*!*****************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/index.js ***!
   \*****************************************************/
-/*! exports provided: colors, hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, createMuiTheme, createStyles, makeStyles, responsiveFontSizes, styled, easing, duration, useTheme, withStyles, withTheme, createGenerateClassName, jssPreset, ServerStyleSheets, StylesProvider, MuiThemeProvider, ThemeProvider, AppBar, Avatar, Backdrop, Badge, BottomNavigation, BottomNavigationAction, Box, Breadcrumbs, Button, ButtonBase, ButtonGroup, Card, CardActionArea, CardActions, CardContent, CardHeader, CardMedia, Checkbox, Chip, CircularProgress, ClickAwayListener, Collapse, Container, CssBaseline, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Divider, Drawer, ExpansionPanel, ExpansionPanelActions, ExpansionPanelDetails, ExpansionPanelSummary, Fab, Fade, FilledInput, FormControl, FormControlLabel, FormGroup, FormHelperText, FormLabel, Grid, GridList, GridListTile, GridListTileBar, Grow, Hidden, Icon, IconButton, Input, InputAdornment, InputBase, InputLabel, LinearProgress, Link, List, ListItem, ListItemAvatar, ListItemIcon, ListItemSecondaryAction, ListItemText, ListSubheader, Menu, MenuItem, MenuList, MobileStepper, Modal, NativeSelect, NoSsr, OutlinedInput, Paper, Popover, Popper, Portal, Radio, RadioGroup, RootRef, Select, Slide, Slider, Snackbar, SnackbarContent, Step, StepButton, StepConnector, StepContent, StepIcon, StepLabel, Stepper, SvgIcon, SwipeableDrawer, Switch, Tab, Table, TableBody, TableCell, TableContainer, TableFooter, TableHead, TablePagination, TableRow, TableSortLabel, Tabs, TextField, TextareaAutosize, Toolbar, Tooltip, Typography, useMediaQuery, useScrollTrigger, withMobileDialog, withWidth, Zoom, styleFunction, useFormControl, ModalManager, useRadioGroup, isWidthUp, isWidthDown */
+/*! exports provided: colors, hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, createMuiTheme, createStyles, makeStyles, responsiveFontSizes, styled, easing, duration, useTheme, withStyles, withTheme, createGenerateClassName, jssPreset, ServerStyleSheets, StylesProvider, MuiThemeProvider, ThemeProvider, AppBar, Avatar, Backdrop, Badge, BottomNavigation, BottomNavigationAction, Box, styleFunction, Breadcrumbs, Button, ButtonBase, ButtonGroup, Card, CardActionArea, CardActions, CardContent, CardHeader, CardMedia, Checkbox, Chip, CircularProgress, ClickAwayListener, Collapse, Container, CssBaseline, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Divider, Drawer, ExpansionPanel, ExpansionPanelActions, ExpansionPanelDetails, ExpansionPanelSummary, Fab, Fade, FilledInput, FormControl, useFormControl, FormControlLabel, FormGroup, FormHelperText, FormLabel, Grid, GridList, GridListTile, GridListTileBar, Grow, Hidden, Icon, IconButton, Input, InputAdornment, InputBase, InputLabel, LinearProgress, Link, List, ListItem, ListItemAvatar, ListItemIcon, ListItemSecondaryAction, ListItemText, ListSubheader, Menu, MenuItem, MenuList, MobileStepper, Modal, ModalManager, NativeSelect, NoSsr, OutlinedInput, Paper, Popover, Popper, Portal, Radio, RadioGroup, useRadioGroup, RootRef, Select, Slide, Slider, Snackbar, SnackbarContent, Step, StepButton, StepConnector, StepContent, StepIcon, StepLabel, Stepper, SvgIcon, SwipeableDrawer, Switch, Tab, Table, TableBody, TableCell, TableContainer, TableFooter, TableHead, TablePagination, TableRow, TableSortLabel, Tabs, TextField, TextareaAutosize, Toolbar, Tooltip, Typography, useMediaQuery, useScrollTrigger, withMobileDialog, withWidth, isWidthUp, isWidthDown, Zoom */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35994,7 +35994,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!*******************************************************!*\
   !*** ./node_modules/@material-ui/styles/esm/index.js ***!
   \*******************************************************/
-/*! exports provided: createGenerateClassName, createStyles, getThemeProps, jssPreset, makeStyles, mergeClasses, ServerStyleSheets, styled, StylesProvider, ThemeProvider, useTheme, withStyles, withTheme, sheetsManager, StylesContext, withThemeCreator */
+/*! exports provided: createGenerateClassName, createStyles, getThemeProps, jssPreset, makeStyles, mergeClasses, ServerStyleSheets, styled, StylesProvider, sheetsManager, StylesContext, ThemeProvider, useTheme, withStyles, withTheme, withThemeCreator */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37566,7 +37566,7 @@ var grid = Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(gridGap, gri
 /*!*******************************************************!*\
   !*** ./node_modules/@material-ui/system/esm/index.js ***!
   \*******************************************************/
-/*! exports provided: borders, breakpoints, compose, css, display, flexbox, grid, palette, positions, shadows, sizing, spacing, style, typography, border, borderTop, borderRight, borderBottom, borderLeft, borderColor, borderRadius, flexBasis, flexDirection, flexWrap, justifyContent, alignItems, alignContent, order, flex, flexGrow, flexShrink, alignSelf, justifyItems, justifySelf, gridGap, gridColumnGap, gridRowGap, gridColumn, gridRow, gridAutoFlow, gridAutoColumns, gridAutoRows, gridTemplateColumns, gridTemplateRows, gridTemplateAreas, gridArea, color, bgcolor, position, zIndex, top, right, bottom, left, width, maxWidth, minWidth, height, maxHeight, minHeight, sizeWidth, sizeHeight, fontFamily, fontSize, fontStyle, fontWeight, letterSpacing, lineHeight, textAlign */
+/*! exports provided: borders, border, borderTop, borderRight, borderBottom, borderLeft, borderColor, borderRadius, breakpoints, compose, css, display, flexbox, flexBasis, flexDirection, flexWrap, justifyContent, alignItems, alignContent, order, flex, flexGrow, flexShrink, alignSelf, justifyItems, justifySelf, grid, gridGap, gridColumnGap, gridRowGap, gridColumn, gridRow, gridAutoFlow, gridAutoColumns, gridAutoRows, gridTemplateColumns, gridTemplateRows, gridTemplateAreas, gridArea, palette, color, bgcolor, positions, position, zIndex, top, right, bottom, left, shadows, sizing, width, maxWidth, minWidth, height, maxHeight, minHeight, sizeWidth, sizeHeight, spacing, style, typography, fontFamily, fontSize, fontStyle, fontWeight, letterSpacing, lineHeight, textAlign */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43341,12 +43341,12 @@ exports["default"] = _default;
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -47113,12 +47113,12 @@ process.umask = function() { return 0; };
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -47753,23 +47753,23 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -54211,12 +54211,12 @@ var classNamesShape =  true ? prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -61398,34 +61398,38 @@ function Header() {
   var classes = useStyles();
   return __jsx("div", {
     className: "container",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
+      lineNumber: 7,
+      columnNumber: 5
+    }
   }, __jsx("div", {
     className: "row",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+      lineNumber: 8,
+      columnNumber: 7
+    }
   }, __jsx("div", {
     className: "col",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
+      lineNumber: 9,
+      columnNumber: 9
+    }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Typography"], {
     className: classes.title,
     variant: "h6",
     component: "h1",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
+      lineNumber: 10,
+      columnNumber: 11
+    }
   }, "BRIAN SWEDBERG"))));
 }
 var useStyles = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])(function (theme) {
@@ -61473,39 +61477,60 @@ function Index(_ref) {
       theme = _ref.theme;
   var classes = useStyles();
   return __jsx("div", {
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
+      lineNumber: 14,
+      columnNumber: 5
+    }
   }, __jsx(_sections_IntroSection__WEBPACK_IMPORTED_MODULE_2__["default"], {
     className: classes.section,
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }), __jsx(_sections_ProjectsSection_ProjectsSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }), __jsx("div", {
+    className: classes.projectsSectionContainer,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, __jsx(_sections_ProjectsSection_ProjectsSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: classes.section,
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }), __jsx(_sections_ExperienceSection__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      lineNumber: 17,
+      columnNumber: 9
+    }
+  })), __jsx("div", {
+    className: classes.experienceSectionContainer,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx(_sections_ExperienceSection__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: classes.section,
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), __jsx(_sections_ContactSection__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  })), __jsx(_sections_ContactSection__WEBPACK_IMPORTED_MODULE_5__["default"], {
     className: classes.section,
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
+      lineNumber: 22,
+      columnNumber: 7
+    }
   }));
 }
 ;
@@ -61513,6 +61538,12 @@ var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeSty
   return Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["createStyles"])({
     section: {
       marginBottom: theme.spacing(6)
+    },
+    projectsSectionContainer: {
+      marginBottom: theme.spacing(12)
+    },
+    experienceSectionContainer: {
+      marginBottom: theme.spacing(12)
     }
   });
 });
@@ -61557,163 +61588,181 @@ function ContactSection(_ref) {
   var classes = useStyles();
   return __jsx("section", {
     className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(className, classes.root),
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
+      lineNumber: 13,
+      columnNumber: 5
+    }
   }, __jsx("div", {
     className: "container",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
+      lineNumber: 14,
+      columnNumber: 7
+    }
   }, __jsx("div", {
     className: "row",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
+      lineNumber: 15,
+      columnNumber: 9
+    }
   }, __jsx("div", {
     className: "col",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
+      lineNumber: 16,
+      columnNumber: 11
+    }
   }, __jsx("div", {
     className: "row justify-content-center align-items-center",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
+      lineNumber: 17,
+      columnNumber: 13
+    }
   }, __jsx("div", {
     className: "col-auto",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
+      lineNumber: 18,
+      columnNumber: 15
+    }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     variant: "body1",
     gutterBottom: true,
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
+      lineNumber: 19,
+      columnNumber: 17
+    }
   }, "Want to connect?"))), __jsx("div", {
     className: "row justify-content-center align-items-center ".concat(classes.icons),
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
+      lineNumber: 27,
+      columnNumber: 13
+    }
   }, __jsx("div", {
     className: "col-auto",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
+      lineNumber: 28,
+      columnNumber: 15
+    }
   }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
     component: "a",
     href: "https://www.linkedin.com/in/bwswedberg",
     target: "_blank",
     title: "LinkedIn",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
+      lineNumber: 29,
+      columnNumber: 17
+    }
   }, __jsx(mdi_material_ui_LinkedinBox__WEBPACK_IMPORTED_MODULE_5___default.a, {
     fontSize: "large",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
+      lineNumber: 35,
+      columnNumber: 19
+    }
   }))), __jsx("div", {
     className: "col-auto",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
+      lineNumber: 38,
+      columnNumber: 15
+    }
   }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
     component: "a",
     href: "mailto:bwswedberg@gmail.com",
     target: "_blank",
     title: "Email",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
+      lineNumber: 39,
+      columnNumber: 17
+    }
   }, __jsx(mdi_material_ui_Gmail__WEBPACK_IMPORTED_MODULE_6___default.a, {
     fontSize: "large",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
+      lineNumber: 45,
+      columnNumber: 19
+    }
   }))), __jsx("div", {
     className: "col-auto",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
+      lineNumber: 48,
+      columnNumber: 15
+    }
   }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
     component: "a",
     href: "https://github.com/bwswedberg",
     target: "_blank",
     title: "Github",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
+      lineNumber: 49,
+      columnNumber: 17
+    }
   }, __jsx(mdi_material_ui_GithubBox__WEBPACK_IMPORTED_MODULE_7___default.a, {
     fontSize: "large",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
+      lineNumber: 55,
+      columnNumber: 19
+    }
   })))), __jsx("div", {
     className: "row justify-content-center align-items-center",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
+      lineNumber: 59,
+      columnNumber: 13
+    }
   }, __jsx("div", {
     className: "col-auto",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
+      lineNumber: 60,
+      columnNumber: 15
+    }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     className: classes.copyright,
     variant: "caption",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
+      lineNumber: 61,
+      columnNumber: 17
+    }
   }, "Created by Brian Swedberg \u2022 Copyright ", new Date().getFullYear())))))));
 }
 ;
 var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])(function (theme) {
   return Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["createStyles"])({
-    root: {
-      paddingTop: theme.spacing(12)
-    },
+    root: {},
     icons: {
       marginBottom: theme.spacing(10)
     },
@@ -61750,103 +61799,117 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function ExperienceSection(_ref) {
+  var _this = this;
+
   var className = _ref.className;
   var classes = useStyles();
   return __jsx("section", {
     className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(classes.root, className),
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
+      lineNumber: 10,
+      columnNumber: 5
+    }
   }, __jsx("div", {
     className: "container",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
+      lineNumber: 11,
+      columnNumber: 7
+    }
   }, __jsx("div", {
     className: "row",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
+      lineNumber: 12,
+      columnNumber: 9
+    }
   }, __jsx("div", {
     className: "col",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
+      lineNumber: 13,
+      columnNumber: 11
+    }
   }, __jsx("div", {
     className: classes.titleContainer,
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
+      lineNumber: 14,
+      columnNumber: 13
+    }
   }, __jsx(_SectionTitle__WEBPACK_IMPORTED_MODULE_4__["default"], {
     title: "9 to 5",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
+      lineNumber: 15,
+      columnNumber: 15
+    }
   })), jobs.map(function (job) {
     return __jsx("div", {
       className: classes.job,
       key: job.position,
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
-      },
-      __self: this
+        lineNumber: 18,
+        columnNumber: 15
+      }
     }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
       className: classes.jobHeader,
       variant: "h6",
       gutterBottom: true,
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
-      },
-      __self: this
+        lineNumber: 19,
+        columnNumber: 17
+      }
     }, job.position, "\xA0", __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
       className: classes.jobDate,
       variant: "body2",
       component: "span",
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
-      },
-      __self: this
+        lineNumber: 25,
+        columnNumber: 19
+      }
     }, job.dateRange)), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
       className: classes.jobDescription,
       variant: "body2",
       gutterBottom: true,
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33
-      },
-      __self: this
+        lineNumber: 33,
+        columnNumber: 17
+      }
     }, __jsx("span", {
       className: classes.jobCompany,
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
-      },
-      __self: this
+        lineNumber: 38,
+        columnNumber: 19
+      }
     }, job.company), " \u2014 ", job.description), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
       className: classes.jobFooter,
       variant: "caption",
       paragraph: true,
       gutterBottom: true,
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
-      },
-      __self: this
+        lineNumber: 40,
+        columnNumber: 17
+      }
     }, job.tech));
   })))));
 }
@@ -61855,10 +61918,10 @@ var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeSty
   return Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["createStyles"])({
     root: {},
     titleContainer: {
-      marginBottom: theme.spacing(3)
+      marginBottom: theme.spacing(8)
     },
     job: {
-      marginBottom: theme.spacing(10),
+      marginBottom: theme.spacing(8),
       maxWidth: 400
     },
     jobHeader: {
@@ -61930,68 +61993,77 @@ function IntroSection(_ref) {
   var classes = useStyles();
   return __jsx("section", {
     className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(classes.root, className),
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
+      lineNumber: 10,
+      columnNumber: 5
+    }
   }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
+      lineNumber: 11,
+      columnNumber: 7
+    }
   }), __jsx("div", {
     className: "container",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
+      lineNumber: 12,
+      columnNumber: 7
+    }
   }, __jsx("div", {
     className: "row",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
+      lineNumber: 13,
+      columnNumber: 9
+    }
   }, __jsx("div", {
     className: "col",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
+      lineNumber: 14,
+      columnNumber: 11
+    }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     className: classes.lead,
     variant: "h5",
     component: "p",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
+      lineNumber: 15,
+      columnNumber: 13
+    }
   }, "I'm a front-end developer who enjoys building ", __jsx("span", {
     className: classes.leadHighlight,
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
+      lineNumber: 20,
+      columnNumber: 61
+    }
   }, "web apps"), ", ", __jsx("span", {
     className: classes.leadHighlight,
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
+      lineNumber: 20,
+      columnNumber: 118
+    }
   }, "maps"), ", and ", __jsx("span", {
     className: classes.leadHighlight,
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
+      lineNumber: 20,
+      columnNumber: 175
+    }
   }, "data visualizations"), ".")))));
 }
 ;
@@ -62025,14 +62097,22 @@ var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeSty
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _ProjectLightbox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ProjectLightbox */ "./src/sections/ProjectsSection/ProjectLightbox.tsx");
-var _jsxFileName = "/Users/swedberg/Workspaces/portfolio/src/sections/ProjectsSection/Project.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-markdown */ "./node_modules/react-markdown/lib/react-markdown.js");
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _ProjectLightbox__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ProjectLightbox */ "./src/sections/ProjectsSection/ProjectLightbox.tsx");
+
+
+var _this = undefined,
+    _jsxFileName = "/Users/swedberg/Workspaces/portfolio/src/sections/ProjectsSection/Project.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 
@@ -62042,123 +62122,149 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   var project = _ref.project,
       i = _ref.i;
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
       isLightboxOpen = _useState[0],
       setIsLightboxOpen = _useState[1];
 
   var classes = useStyles();
   return __jsx("div", {
     className: classes.root,
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
+      lineNumber: 21,
+      columnNumber: 5
+    }
   }, __jsx("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()('row', i % 2 && 'flex-row-reverse'),
+    className: classnames__WEBPACK_IMPORTED_MODULE_4___default()('row', i % 2 && 'flex-row-reverse'),
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
+      lineNumber: 22,
+      columnNumber: 7
+    }
   }, __jsx("div", {
     className: "col-12 col-xl-6",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
+      lineNumber: 23,
+      columnNumber: 9
+    }
   }, __jsx("div", {
     className: classes.thumbnailContainer,
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
+      lineNumber: 24,
+      columnNumber: 11
+    }
   }, __jsx("img", {
     className: classes.thumbnail,
     src: project.thumbnail.src,
     onClick: function onClick() {
       return setIsLightboxOpen(true);
     },
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
+      lineNumber: 25,
+      columnNumber: 13
+    }
   }), __jsx("div", {
     className: classes.thumbnailBackground,
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
+      lineNumber: 30,
+      columnNumber: 13
+    }
   }))), __jsx("div", {
     className: "col-12 col-xl-6 align-self-center",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
+      lineNumber: 33,
+      columnNumber: 9
+    }
   }, __jsx("div", {
     className: classes.content,
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      lineNumber: 34,
+      columnNumber: 11
+    }
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["Typography"], {
     className: classes.title,
     color: "textSecondary",
     variant: "overline",
     display: "block",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, project.type), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, project.type), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["Typography"], {
     className: classes.lead,
     color: "textPrimary",
     variant: "h6",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 41,
+      columnNumber: 13
+    }
+  }, project.title), __jsx(react_markdown__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    source: "".concat(project.description, " Built with ").concat(project.tech, "."),
+    renderers: {
+      paragraph: function paragraph(p) {
+        return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["Typography"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, p, {
+          className: classes.paragraph,
+          variant: "body2",
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 53,
+            columnNumber: 33
+          }
+        }));
+      }
     },
-    __self: this
-  }, project.title), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Typography"], {
-    className: classes.paragraph,
-    variant: "body2",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, project.description, " Built with ", project.tech, "."), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+      lineNumber: 50,
+      columnNumber: 13
+    }
+  }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["Button"], {
     variant: "outlined",
     color: "secondary",
     onClick: function onClick() {
       return setIsLightboxOpen(true);
     },
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, "MORE")))), isLightboxOpen && __jsx(_ProjectLightbox__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      lineNumber: 55,
+      columnNumber: 13
+    }
+  }, "MORE")))), isLightboxOpen && __jsx(_ProjectLightbox__WEBPACK_IMPORTED_MODULE_5__["default"], {
     project: project,
     onCloseRequest: function onCloseRequest() {
       return setIsLightboxOpen(false);
     },
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
+      lineNumber: 64,
+      columnNumber: 9
+    }
   }));
 });
-var useStyles = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])(function (theme) {
-  return Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["createStyles"])({
+var useStyles = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["makeStyles"])(function (theme) {
+  return Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["createStyles"])({
     root: {},
     thumbnailContainer: {
       position: 'relative',
@@ -62206,7 +62312,10 @@ var useStyles = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["makeStyle
       lineHeight: '1.2em'
     },
     paragraph: {
-      marginBottom: theme.spacing(2)
+      marginBottom: theme.spacing(2),
+      '& a': {
+        color: theme.palette.secondary.light
+      }
     }
   });
 });
@@ -62227,7 +62336,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_image_lightbox__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-image-lightbox */ "./node_modules/react-image-lightbox/dist/index.es.js");
 /* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-markdown */ "./node_modules/react-markdown/lib/react-markdown.js");
 /* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/swedberg/Workspaces/portfolio/src/sections/ProjectsSection/ProjectLightbox.tsx";
+var _this = undefined,
+    _jsxFileName = "/Users/swedberg/Workspaces/portfolio/src/sections/ProjectsSection/ProjectLightbox.tsx";
+
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -62258,17 +62369,19 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     imageTitle: "".concat(project.title, ": ").concat(image.title),
     imageCaption: __jsx(react_markdown__WEBPACK_IMPORTED_MODULE_2___default.a, {
       source: image.caption,
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
-      },
-      __self: this
+        lineNumber: 25,
+        columnNumber: 21
+      }
     }),
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
+      lineNumber: 17,
+      columnNumber: 5
+    }
   });
 });
 
@@ -62291,7 +62404,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SectionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SectionTitle */ "./src/sections/SectionTitle.tsx");
 /* harmony import */ var _Project__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Project */ "./src/sections/ProjectsSection/Project.tsx");
 /* harmony import */ var _projects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./projects */ "./src/sections/ProjectsSection/projects.ts");
-var _jsxFileName = "/Users/swedberg/Workspaces/portfolio/src/sections/ProjectsSection/ProjectsSection.tsx";
+var _this = undefined,
+    _jsxFileName = "/Users/swedberg/Workspaces/portfolio/src/sections/ProjectsSection/ProjectsSection.tsx";
+
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -62309,63 +62424,71 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   var classes = useStyles();
   return __jsx("section", {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(classes.root, className),
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
+      lineNumber: 15,
+      columnNumber: 5
+    }
   }, __jsx("div", {
     className: "container",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
+      lineNumber: 16,
+      columnNumber: 7
+    }
   }, __jsx("div", {
     className: "row",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
+      lineNumber: 17,
+      columnNumber: 9
+    }
   }, __jsx("div", {
     className: "col",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
+      lineNumber: 18,
+      columnNumber: 11
+    }
   }, __jsx("div", {
     className: classes.titleContainer,
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
+      lineNumber: 19,
+      columnNumber: 13
+    }
   }, __jsx(_SectionTitle__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "After Hours",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
+      lineNumber: 20,
+      columnNumber: 15
+    }
   })))), _projects__WEBPACK_IMPORTED_MODULE_5__["default"].map(function (d, i) {
     return __jsx("div", {
       className: classes.project,
       key: d.id,
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
-      },
-      __self: this
+        lineNumber: 25,
+        columnNumber: 11
+      }
     }, __jsx(_Project__WEBPACK_IMPORTED_MODULE_4__["default"], {
       project: d,
       i: i,
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
-      },
-      __self: this
+        lineNumber: 26,
+        columnNumber: 13
+      }
     }));
   })));
 });
@@ -62447,7 +62570,7 @@ var projects = [{
   type: 'Data Visualization',
   title: 'Proof of Concepts, Experiments, & Art',
   lead: 'Data Viz for the Mind and Soul',
-  description: 'Data visualizations are a great deal of fun for testing ideas and showing off techniques. [Bl.ocks](https://bl.ocks.org/bwswedberg) are ObservableHQ is an environment perfect for that.',
+  description: 'Data visualizations are a great deal of fun for testing ideas and showing off techniques. [Bl.ocks](https://bl.ocks.org/bwswedberg) are an environment perfect for that.',
   tech: 'JavaScript, D3, Leaflet, and Three',
   thumbnail: {
     title: 'Proof of Concepts, Experiments, & Art',
@@ -62563,12 +62686,12 @@ function SectionTitle(_ref) {
   return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     className: classes.title,
     variant: "h2",
-    component: "h2",
+    __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+      lineNumber: 8,
+      columnNumber: 5
+    }
   }, title);
 }
 var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])(function (theme) {
@@ -62580,6 +62703,7 @@ var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeSty
       // borderTop: '2px solid rgba(255,255,255,0.1)',
       // borderRight: '2px solid rgba(255,255,255,0.1)',
       textAlign: 'right',
+      // fontWeight: 'bold',
       // fontFamily: 'Fira Code',
       '&:before': {
         content: '""',
@@ -62608,14 +62732,14 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ "dll-reference dll_5f137288facb1107b491":
+/***/ "dll-reference dll_ef0ff7c60362f24a921f":
 /*!*******************************************!*\
-  !*** external "dll_5f137288facb1107b491" ***!
+  !*** external "dll_ef0ff7c60362f24a921f" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_5f137288facb1107b491;
+module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
