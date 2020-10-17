@@ -85,7 +85,7 @@ const projects: Project[] = [
     type: 'Data Visualization',
     title: 'Proof of Concepts, Experiments, & Art',
     lead: 'Data Viz for the Mind and Soul',
-    description: 'Data visualizations are a great deal of fun for testing ideas and showing off techniques. [Bl.ocks](https://bl.ocks.org/bwswedberg) are ObservableHQ is an environment perfect for that.',
+    description: 'Data visualizations are a great deal of fun for testing ideas and showing off techniques. [Bl.ocks](https://bl.ocks.org/bwswedberg) are an environment perfect for that.',
     tech: 'JavaScript, D3, Leaflet, and Three',
     thumbnail: {
       title: 'Proof of Concepts, Experiments, & Art',

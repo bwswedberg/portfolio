@@ -1,5 +1,5 @@
 import React, { useState, createRef } from 'react';
-import Lightbox from 'react-image-lightbox';
+import ReactMarkdown from 'react-markdown';
 import { makeStyles, Theme, createStyles, Typography, Button } from '@material-ui/core';
 import classnames from 'classnames';
 
@@ -43,10 +43,15 @@ export default ({ project, i }: Props) => {
               color="textPrimary" 
               variant="h6"
             >{project.title}</Typography>
-            <Typography 
+            {/* <Typography 
               className={classes.paragraph} 
               variant="body2"
-            >{project.description} Built with {project.tech}.</Typography>
+            >{project.description} Built with {project.tech}.</Typography> */}
+            <ReactMarkdown
+              source={`${project.description} Built with ${project.tech}.`}
+              renderers={{
+                paragraph: p => <Typography {...p} className={classes.paragraph} variant="body2" />
+              }} />
             <Button 
               variant="outlined" 
               color="secondary"
@@ -114,6 +119,9 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     lineHeight: '1.2em',
   },
   paragraph: {
-    marginBottom: theme.spacing(2)
+    marginBottom: theme.spacing(2),
+    '& a': {
+      color: theme.palette.secondary.light,
+    },
   },
 }));
