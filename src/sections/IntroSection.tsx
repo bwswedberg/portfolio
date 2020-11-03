@@ -17,7 +17,7 @@ export default function IntroSection({ className }) {
               variant="h5" 
               component="p"
             >
-              I'm a front-end developer who enjoys building <span className={classes.leadHighlight}>web apps</span>, <span className={classes.leadHighlight}>maps</span>, and <span className={classes.leadHighlight}>data visualizations</span>.
+              I'm a fullstack developer who enjoys building <span className={classes.leadHighlight}>web apps</span>, <span className={classes.leadHighlight}>maps</span>, and <span className={classes.leadHighlight}>data visualizations</span>.
             </Typography>
           </div>
         </div>
