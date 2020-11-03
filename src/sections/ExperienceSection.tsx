@@ -91,17 +91,17 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
 
 const jobs = [
   { 
-    position: 'Frontend Developer',
+    position: 'Fullstack Developer',
     dateRange: '2017.08 - NOW', 
     company: 'BOOZ ALLEN',
-    description: 'I develop responsive interactive web apps, tools, stories, and visualizations that explain complex topics to a broad audience.',
-    tech: 'TypeScript, JavaScript, HTML, CSS, Angular, SASS, D3, Leaflet, Highcharts, Node, Git'
+    description: 'I develop enterprise web apps and tools. I also work with clients to develop interactive stories and visualizations that explain complex topics to a broad audience.',
+    tech: 'TypeScript, JavaScript, HTML, CSS, SASS, Angular, D3, Leaflet, Highcharts, Redux, Apollo/GraphQL, Express, REST, Node, PostgreSQL, MongoDB, Git'
   },
   { 
     position: 'Fullstack Developer',
     dateRange: '2015.06 - 2017.08', 
     company: 'OGSYSTEMS',
     description: 'I developed features for an enterprise level facilities management web app, and secondary situational awareness web app.',
-    tech: 'JavaScript, HTML, CSS, React, Leaflet, jQuery, Java, Oracle, Git'
+    tech: 'JavaScript, HTML, CSS, React, Redux, Leaflet, jQuery, Java, Oracle, Git'
   }
 ];
