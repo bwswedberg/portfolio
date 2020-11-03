@@ -62040,7 +62040,7 @@ function IntroSection(_ref) {
       lineNumber: 15,
       columnNumber: 13
     }
-  }, "I'm a front-end developer who enjoys building ", __jsx("span", {
+  }, "I'm a fullstack developer who enjoys building ", __jsx("span", {
     className: classes.leadHighlight,
     __self: this,
     __source: {
@@ -62516,15 +62516,40 @@ var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeSty
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var projects = [{
+  id: 'school-boundaries',
+  type: 'Progressive Web App',
+  title: 'NoVA School Boundaries',
+  lead: 'Explore and understand your school boundaries',
+  description: 'A progressive web app that provides a transparent and holistic view of Northern Virginia\'s complex school boundary landscape',
+  tech: 'TypeScript, React, Apollo, and AWS',
+  thumbnail: {
+    title: 'NoVA School Boundaries',
+    alt: 'NoVA School Boundaries app UI preview',
+    src: '/projects/school-boundaries/preview.png'
+  },
+  images: [{
+    src: '/projects/school-boundaries/sb-schools.png',
+    title: 'NoVA School Boundaries: All Schools',
+    caption: '*NoVA School Boundaries*. View all schools.'
+  }, {
+    src: '/projects/school-boundaries/sb-school.png',
+    title: 'NoVA School Boundaries: High School Drilldown',
+    caption: '*NoVA School Boundaries*. View school school details with hover effect.'
+  }, {
+    src: '/projects/school-boundaries/sb-point.png',
+    title: 'NoVA School Boundaries: Point Drilldown',
+    caption: '*NoVA School Boundaries*. View ad hoc point details with hover effect.'
+  }]
+}, {
   id: 'bible-reading-plans',
   type: 'Progressive Web App',
   title: 'Read Through the Bible',
   lead: 'Discover, use, and create Bible reading plans',
-  description: 'A Progressive Web App that provides an enhanced ability to explore, share, create, export, and participate in Bible reading plans.',
-  tech: 'TypeScript, React, Redux, GraphQL, and AWS',
+  description: 'A progressive web app that provides an enhanced ability to explore, share, create, export, and participate in Bible reading plans.',
+  tech: 'TypeScript, React, Redux, and AWS',
   thumbnail: {
     title: 'Read Through the Bible',
-    alt: 'Read Through the Bible Code',
+    alt: 'Read Through the Bible app UI preview',
     src: '/projects/brpa/preview.png'
   },
   images: [{
@@ -62545,7 +62570,7 @@ var projects = [{
   tech: 'JavaScript, React, Redux, D3, and AWS',
   thumbnail: {
     title: 'Apartment Reporter',
-    alt: 'Apartment Reporter Frontend UI',
+    alt: 'Apartment Reporter frontend app UI preview',
     src: '/projects/apartment-reporter/preview.png'
   },
   images: [{
@@ -62702,7 +62727,7 @@ var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeSty
       // borderBottom: `2px solid rgba(255,255,255,0.1)`,
       // borderTop: '2px solid rgba(255,255,255,0.1)',
       // borderRight: '2px solid rgba(255,255,255,0.1)',
-      textAlign: 'right',
+      // textAlign: 'right',
       // fontWeight: 'bold',
       // fontFamily: 'Fira Code',
       '&:before': {
