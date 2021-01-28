@@ -61844,7 +61844,7 @@ function ExperienceSection(_ref) {
       columnNumber: 13
     }
   }, __jsx(_SectionTitle__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    title: "9 to 5",
+    title: "Fulltime",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -62463,7 +62463,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       columnNumber: 13
     }
   }, __jsx(_SectionTitle__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "After Hours",
+    title: "Side Projects",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -62520,8 +62520,8 @@ var projects = [{
   type: 'Progressive Web App',
   title: 'NoVA School Boundaries',
   lead: 'Explore and understand your school boundaries',
-  description: 'A progressive web app that provides a transparent and holistic view of Northern Virginia\'s complex school boundary landscape',
-  tech: 'TypeScript, React, Apollo, and AWS',
+  description: 'A progressive web app that provides a transparent and holistic view of Northern Virginia\'s complex school boundary landscape. Currently in development.',
+  tech: 'TypeScript, React, Apollo, DynamoDB, and AWS',
   thumbnail: {
     title: 'NoVA School Boundaries',
     alt: 'NoVA School Boundaries app UI preview',
@@ -62541,25 +62541,37 @@ var projects = [{
     caption: '*NoVA School Boundaries*. View ad hoc point details with hover effect.'
   }]
 }, {
-  id: 'bible-reading-plans',
+  id: 'ybp',
   type: 'Progressive Web App',
-  title: 'Read Through the Bible',
-  lead: 'Discover, use, and create Bible reading plans',
-  description: 'A progressive web app that provides an enhanced ability to explore, share, create, export, and participate in Bible reading plans.',
-  tech: 'TypeScript, React, Redux, and AWS',
+  title: 'Your Bible Plan',
+  lead: 'Find, create, and download Bible reading plans',
+  description: 'A progressive web app that provides a community and repository for Bible reading plans so that people can easily find, create, and download plans for studying the Bible. Currently in development.',
+  tech: 'TypeScript, React, Redux, Postgres, and AWS',
   thumbnail: {
-    title: 'Read Through the Bible',
-    alt: 'Read Through the Bible app UI preview',
-    src: '/projects/brpa/preview.png'
+    title: 'Your Bible Plan',
+    alt: 'Your Bible Plan App UI Preview',
+    src: '/projects/ybp/preview.png'
   },
   images: [{
-    src: '/projects/brpa/brpa.png',
-    title: 'Main App UI Displaying Plans',
-    caption: 'The main screen UI of *Read Through the Bible*. Choose a plan to start a daily devotion.'
+    src: '/projects/ybp/landing-page.png',
+    title: 'Landing Page - Your Bible Plan',
+    caption: 'The landing page UI of *Your Bible Plan*.'
   }, {
-    src: '/projects/brpa/code.png',
-    title: 'Code',
-    caption: 'To be continued...'
+    src: '/projects/ybp/plans-page.png',
+    title: 'Plans Page - Your Bible Plan',
+    caption: 'Plans Page of *Your Bible Plan* lists all plans in the database with infinite scroll.'
+  }, {
+    src: '/projects/ybp/plan-page-1.png',
+    title: 'Plan Page v1 - Your Bible Plan',
+    caption: 'Plan Page of *Your Bible Plan* shows the hero and plan details.'
+  }, {
+    src: '/projects/ybp/plan-page-2.png',
+    title: 'Plan Page v2 - Your Bible Plan',
+    caption: 'Plan Page of *Your Bible Plan* shows more details and the plan devotion list.'
+  }, {
+    src: '/projects/ybp/xd.png',
+    title: 'Wireframe in XD - Your Bible Plan',
+    caption: 'Screen shot of a few *Your Bible Plan* wireframes in Adobe XD.'
   }]
 }, {
   id: 'apartment-reporter',
@@ -62745,7 +62757,7 @@ var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeSty
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fswedberg%2FWorkspaces%2Fportfolio%2Fsrc%2Fpages%2Findex.tsx ***!
   \***************************************************************************************************************************************/
@@ -62768,5 +62780,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
