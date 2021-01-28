@@ -12,7 +12,7 @@ export default function ExperienceSection({ className }) {
         <div className="row">
           <div className="col">
             <div className={classes.titleContainer}>
-              <SectionTitle title="9 to 5" />
+              <SectionTitle title="Fulltime" />
             </div>
             { jobs.map(job => (
               <div className={classes.job} key={job.position}>

@@ -17,7 +17,7 @@ export default ({ className }) => {
         <div className="row">
           <div className="col">
             <div className={classes.titleContainer}>
-              <SectionTitle title="After Hours" />
+              <SectionTitle title="Side Projects" />
             </div>
           </div>
         </div>
